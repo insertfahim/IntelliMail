@@ -1,8 +1,8 @@
-# 🚀 Normal Human - AI-Powered Email Client
+# 🚀 IntelliMail - AI-Powered Email Client
 
 <div align="center">
 
-![Normal Human Banner](https://github.com/user-attachments/assets/03580ec6-99f0-4f3e-8a0d-141e15d2e17b)
+![IntelliMail Banner](https://github.com/user-attachments/assets/03580ec6-99f0-4f3e-8a0d-141e15d2e17b)
 
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -12,7 +12,7 @@
 
 **A minimalistic, AI-powered email client that revolutionizes email management**
 
-[🌟 Live Demo](#) • [📖 Documentation](#installation) • [🐛 Report Bug](https://github.com/insertfahim/normalhuman/issues) • [💡 Request Feature](https://github.com/insertfahim/normalhuman/issues)
+[🌟 Live Demo](#) • [📖 Documentation](#installation) • [🐛 Report Bug](https://github.com/insertfahim/intellimail/issues) • [💡 Request Feature](https://github.com/insertfahim/intellimail/issues)
 
 </div>
 
@@ -20,7 +20,7 @@
 
 ## 🎯 Project Overview
 
-I developed **Normal Human** as a cutting-edge AI-powered email client that transforms how users interact with their email. This full-stack application combines modern web technologies with advanced AI capabilities to create an intelligent, efficient, and user-friendly email management experience.
+I developed **IntelliMail** as a cutting-edge AI-powered email client that transforms how users interact with their email. This full-stack application combines modern web technologies with advanced AI capabilities to create an intelligent, efficient, and user-friendly email management experience.
 
 ### ✨ What Makes This Special
 
@@ -143,8 +143,8 @@ graph TB
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/insertfahim/normalhuman.git
-cd normalhuman
+git clone https://github.com/insertfahim/intellimail.git
+cd intellimail
 ```
 
 ### 2. Install Dependencies
@@ -163,7 +163,7 @@ Create a `.env.local` file in the root directory:
 
 ```env
 # Database
-DATABASE_URL="postgresql://username:password@localhost:5432/normalhuman"
+DATABASE_URL="postgresql://username:password@localhost:5432/intellimail"
 
 # Clerk Authentication
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="pk_test_..."
@@ -246,7 +246,7 @@ Visit [http://localhost:3001](http://localhost:3001) to see the application.
 ## 📂 Project Structure
 
 ```
-normalhuman/
+intellimail/
 ├── src/
 │   ├── app/                    # Next.js app directory
 │   │   ├── (auth)/            # Authentication routes
@@ -292,8 +292,8 @@ normalhuman/
 
 ```dockerfile
 # Dockerfile included in repository
-docker build -t normalhuman .
-docker run -p 3000:3000 normalhuman
+docker build -t intellimail .
+docker run -p 3000:3000 intellimail
 ```
 
 ### Manual Deployment
@@ -347,7 +347,7 @@ npx prisma migrate deploy
 
 ## 🤝 Contributing
 
-I welcome contributions to make Normal Human even better! Here's how you can help:
+I welcome contributions to make IntelliMail even better! Here's how you can help:
 
 ### Getting Started
 
@@ -384,7 +384,7 @@ npm run dev --turbo
 
 ## 🙏 Acknowledgments
 
-I built Normal Human using these excellent tools and services:
+I built IntelliMail using these excellent tools and services:
 
 - **[Next.js](https://nextjs.org/)** - The React framework for production
 - **[OpenAI](https://openai.com/)** - AI models and API
@@ -403,7 +403,7 @@ I'd love to hear from you! Whether you have questions, feedback, or just want to
 
 - **Email**: [faahim06@gmail.com](mailto:faahim06@gmail.com)
 - **GitHub**: [@insertfahim](https://github.com/insertfahim)
-- **Issues**: [Report a bug or request a feature](https://github.com/insertfahim/normalhuman/issues)
+- **Issues**: [Report a bug or request a feature](https://github.com/insertfahim/intellimail/issues)
 
 ---
 
