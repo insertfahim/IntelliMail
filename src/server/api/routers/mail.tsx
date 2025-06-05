@@ -267,6 +267,28 @@ export const mailRouter = createTRPCRouter({
             })
         }
     }),
+    starThread: protectedProcedure.input(z.object({
+        threadId: z.string(),
+        accountId: z.string()
+    })).mutation(async ({ ctx, input }) => {
+        const account = await authoriseAccountAccess(input.accountId, ctx.auth.userId)
+        if (!account) throw new Error("Invalid token")
+        await ctx.db.thread.update({
+            where: { id: input.threadId },
+            data: { starred: true }
+        })
+    }),
+    unstarThread: protectedProcedure.input(z.object({
+        threadId: z.string(),
+        accountId: z.string()
+    })).mutation(async ({ ctx, input }) => {
+        const account = await authoriseAccountAccess(input.accountId, ctx.auth.userId)
+        if (!account) throw new Error("Invalid token")
+        await ctx.db.thread.update({
+            where: { id: input.threadId },
+            data: { starred: false }
+        })
+    }),
     getEmailDetails: protectedProcedure.input(z.object({
         emailId: z.string(),
         accountId: z.string()
