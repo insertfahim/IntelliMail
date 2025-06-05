@@ -177,10 +177,17 @@ OPENAI_API_KEY="sk-..."
 # Aurinko Email API
 AURINKO_CLIENT_ID="your_aurinko_client_id"
 AURINKO_CLIENT_SECRET="your_aurinko_client_secret"
+AURINKO_SIGNING_SECRET="your_aurinko_signing_secret"
+
+# Nylas
+NYLAS_CLIENT_ID="your_nylas_client_id"
+NYLAS_API_KEY="your_nylas_api_key"
+GRAVATAR_API_KEY="your_gravatar_api_key"
 
 # Stripe
 STRIPE_SECRET_KEY="sk_test_..."
 NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY="pk_test_..."
+STRIPE_PRICE_ID="price_..."
 STRIPE_WEBHOOK_SECRET="whsec_..."
 
 # App Configuration

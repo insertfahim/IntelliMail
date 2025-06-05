@@ -17,6 +17,3 @@ export const getGravatar = async (email: string) => {
         throw error
     }
 }
-
-
-console.log(await getGravatar('lukas@cascading.ai'))
