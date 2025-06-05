@@ -194,7 +194,7 @@ class Account {
                     to,
                     cc,
                     bcc,
-                    replyTo: [replyTo],
+                    ...(replyTo ? { replyTo: [replyTo] } : {}),
                 },
                 {
                     params: {
